@@ -6,17 +6,21 @@
 
     .my-img{
 
-        width: 60px;
+        width: 15%;
         border-radius: 80px;
         margin-right: 50px;
         margin-left: 10px;
         margin-bottom: 30px;
         margin-top: 30px;
+        height: auto;
+         border: 1px solid black;
+         transition: 0.3s;
+         cursor: pointer;
 
     }
     h1{
         text-align: center;
-        font-size: 25px;
+        font-size: 5vw;
         color: rgb(255, 255, 255);
         margin-bottom: 40px;
         border-color: rgb(223, 190, 142);
@@ -33,7 +37,8 @@
        text-shadow: 4px 4px 9px black ;
         color: rgb(240, 132, 70);
         margin-bottom: 0px;
-        margin-top: 15px;
+        margin-top: 20px;
+        font-size: 20px, 5vw, 40px;
 
         
     }
@@ -49,7 +54,7 @@
 
     h4{
         color: rgb(99, 141, 141);
-        margin-top: 0px;
+        margin-top: 5px;
         margin-bottom: 0px;
     }
 
