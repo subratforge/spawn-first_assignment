@@ -2,6 +2,9 @@
         color: rgb(83, 88, 88);
         background-color: rgb(95, 97, 96);
          text-shadow: 2px 2px 5px black ;
+         padding: 10px;
+         border: color(rgb(185, 124, 124) red green blue);
+         border: solid 1px rgb(230, 127, 127);
     }
 
     .my-img{
@@ -18,11 +21,32 @@
          cursor: pointer;
 
     }
+
+    .heading-box{
+        display:flex;
+        background-color: rosybrown;
+        border: solid 1px rgb(35, 245, 182);
+        margin-bottom: 40px;
+        
+            border-radius: 50px;
+            padding: 20px;
+            flex-direction: column;
+        margin-top: 30px;  
+        backdrop-filter: blur(5px);
+        background: rgba(0,0,0,0.3);
+         
+      }
+
+        .heading-box:hover{
+            background-color: rgb(167, 158, 158);
+            color: blanchedalmond;
+            box-shadow: 0.8px;
+        }
     h1{
         text-align: center;
         font-size: 18px;
         color: rgb(255, 255, 255);
-        margin-bottom: 40px;
+        margin-left: 10px;
         border-color: rgb(223, 190, 142);
         border: solid 1px black;
         background-color: rgb(88, 104, 96);
@@ -39,6 +63,8 @@
         margin-bottom: 0px;
         margin-top: 20px;
         font-size: 20px, 5vw, 40px;
+        margin-left: 30px;
+
 
         
     }
@@ -48,6 +74,7 @@
         color: rgb(168, 66, 117);
         margin-top: 5px;
         font-size: 40px;
+        margin-left: 30px;
         
         
     }
@@ -56,12 +83,16 @@
         color: rgb(99, 141, 141);
         margin-top: 5px;
         margin-bottom: 0px;
+            margin-left: 30px;
     }
 
     h5{
         color: rgb(99, 141, 141);
         margin-top: 0px;
-        margin-bottom: px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-top: 1px;
+        font-size:15px ;
         
     }
 
@@ -69,9 +100,9 @@
         color: rgb(221, 223, 118);
             margin-top: 20px;
             margin-bottom: 20px;
-
-        
-    }
+            text-align: center;
+            font-size: auto;
+        }
     .buttons {
         
         
