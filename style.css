@@ -20,14 +20,14 @@
     }
     h1{
         text-align: center;
-        font-size: 3vw;
+        font-size: 18px;
         color: rgb(255, 255, 255);
         margin-bottom: 40px;
         border-color: rgb(223, 190, 142);
         border: solid 1px black;
         background-color: rgb(88, 104, 96);
         border-radius: 50px;
-        cursor: none;
+        cursor: default;
 
     }
 
