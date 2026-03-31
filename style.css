@@ -3,36 +3,67 @@
         background-color: rgb(95, 97, 96);
          text-shadow: 2px 2px 5px black ;
     }
+
+    .my-img{
+
+        width: 60px;
+        border-radius: 80px;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+    }
     h1{
         text-align: center;
         font-size: 25px;
         color: rgb(255, 255, 255);
         margin-bottom: 40px;
+        border-color: rgb(223, 190, 142);
+        border: solid 1px black;
+        background-color: rgb(88, 104, 96);
+        border-radius: 50px;
+        cursor: none;
 
     }
 
-    .my-img{
 
-        width: 60px;
-
-    }
 
     h2{
        text-shadow: 4px 4px 9px black ;
         color: rgb(240, 132, 70);
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         margin-top: 15px;
+
         
     }
 
     h3{
         margin-bottom: 5px;
         color: rgb(168, 66, 117);
+        margin-top: 5px;
+        font-size: 40px;
+        
+    }
+
+    h4{
+        color: rgb(99, 141, 141);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h5{
+        color: rgb(99, 141, 141);
+        margin-top: 0px;
+        margin-bottom: px;
         
     }
 
     p{
-        color: rgb(243, 148, 184);
+        color: rgb(221, 223, 118);
+            margin-top: 20px;
+            margin-bottom: 20px;
+
         
     }
     .buttons {
@@ -43,7 +74,7 @@
         align-items: center;
         flex-direction: column;
         gap: 20px;
-        margin-top: 20px;
+        margin-top: 70px;
       
     }
 
